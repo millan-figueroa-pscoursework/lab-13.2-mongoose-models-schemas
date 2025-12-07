@@ -6,15 +6,15 @@
 # Project MVP To-Do List
 
 ## Task 1: Setup
-- [ ] Create project folder `digital-bookshelf-api`
-- [ ] Run `npm init -y`
-- [ ] Install dependencies (`express`, `mongoose`, `dotenv`)
-- [ ] Create folders: `db`, `models`, `routes`
-- [ ] Create `server.js`
-- [ ] Add `.env` with `PORT` + `MONGO_URI`
-- [ ] Create `.gitignore` with:
-  - [ ] `node_modules/`
-  - [ ] `.env`
+- [x] Create project folder `digital-bookshelf-api`
+- [x] Run `npm init -y`
+- [x] Install dependencies (`express`, `mongoose`, `dotenv`)
+- [x] Create folders: `db`, `models`, `routes`
+- [x] Create `server.js`
+- [x] Add `.env` with `PORT` + `MONGO_URI`
+- [x] Create `.gitignore` with:
+  - [x] `node_modules/`
+  - [x] `.env`
 
 ---
 
