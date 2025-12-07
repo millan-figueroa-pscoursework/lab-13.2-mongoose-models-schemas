@@ -45,24 +45,24 @@
 
 ## Task 4: Book Routes (CRUD)
 
-- [ ] Create `routes/bookRoutes.js`
-- [ ] Import `express` and Book model
-- [ ] Create router with `express.Router()`
-- [ ] Add routes with async/await:
-  - [ ] POST `/` → create a book
-  - [ ] GET `/` → get all books
-  - [ ] GET `/:id` → get one book
-  - [ ] PUT `/:id` → update book
-  - [ ] DELETE `/:id` → delete book
-- [ ] Use try/catch for error handling
-- [ ] Export router
+- [x] Create `routes/bookRoutes.js`
+- [x] Import `express` and Book model
+- [x] Create router with `express.Router()`
+- [x] Add routes with async/await:
+  - [x] POST `/` → create a book
+  - [x] GET `/` → get all books
+  - [x] GET `/:id` → get one book
+  - [x] PUT `/:id` → update book
+  - [x] DELETE `/:id` → delete book
+- [x] Use try/catch for error handling
+- [x] Export router
 
 ---
 
 ## Task 5: Server Configuration
 
-- [ ] In `server.js`, import express
-- [ ] Use `express.json()`
-- [ ] Import routes
-- [ ] Mount routes at `/api/books`
-- [ ] Start server on `process.env.PORT`
+- [x] In `server.js`, import express
+- [x] Use `express.json()`
+- [x] Import routes
+- [x] Mount routes at `/api/books`
+- [x] Start server on `process.env.PORT`
