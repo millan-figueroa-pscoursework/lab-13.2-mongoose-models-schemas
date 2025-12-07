@@ -20,26 +20,26 @@
 
 ## Task 2: Database Connection
 
-- [ ] Create `db/connection.js`
-- [ ] Import `mongoose`
-- [ ] Connect using `mongoose.connect(process.env.MONGO_URI)`
-- [ ] Log success or error
-- [ ] Require the connection in `server.js`
+- [x] Create `db/connection.js`
+- [x] Import `mongoose`
+- [x] Connect using `mongoose.connect(process.env.MONGO_URI)`
+- [x] Log success or error
+- [x] Require the connection in `server.js`
 
 ---
 
 ## Task 3: Book Schema & Model
 
-- [ ] Create `models/Book.js`
-- [ ] Import `mongoose`
-- [ ] Define schema:
-  - [ ] `title: String, required`
-  - [ ] `author: String, required`
-  - [ ] `isbn: String, unique`
-  - [ ] `publishedDate: Date`
-  - [ ] `inStock: Boolean, default: true`
-- [ ] Compile model: `mongoose.model("Book", BookSchema)`
-- [ ] Export the model
+- [x] Create `models/Book.js`
+- [x] Import `mongoose`
+- [x] Define schema:
+  - [x] `title: String, required`
+  - [x] `author: String, required`
+  - [x] `isbn: String, unique`
+  - [x] `publishedDate: Date`
+  - [x] `inStock: Boolean, default: true`
+- [x] Compile model: `mongoose.model("Book", BookSchema)`
+- [x] Export the model
 
 ---
 
